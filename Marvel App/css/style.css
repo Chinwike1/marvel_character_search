@@ -1,0 +1,43 @@
+.middle {
+  margin: auto;
+}
+
+#alertBox {
+ width: 19%;
+ position: fixed;
+ right: 0;
+ padding: 1.5em;
+}
+
+#characterName {
+  font-size: 1.5rem;
+}
+
+#characterBio {
+  opacity: 0;
+  transition: opacity 2s;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+.cardContainer{
+  width: 45%;
+}
+
+@media screen and (max-width: 768px) {
+  .cardContainer{
+    width: 75%;
+  }
+  #alertBox {
+    width: 28%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .cardContainer{
+    width: 60%;
+  }
+  #alertBox {
+    width: 29%;
+  }
+}
