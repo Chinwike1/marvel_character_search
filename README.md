@@ -1,5 +1,5 @@
 # marvel_character_search
-An application to search for any character belonging to Marvel. Uses vanilla javascript and Fetch
+An application to search for any character belonging to Marvel. Uses vanilla javascript and Fetch. Live site here (https://marvel-search-app.netlify.app/)
 
 To make sure this project works smoothly on your device please visit the marvel api website (https://developer.marvel.com/) and obtain your api/public key.
 This is the key you would put into the "apikey" variable found in the app.js file.
